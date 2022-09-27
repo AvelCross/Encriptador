@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(imagenes/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-superior{
+    padding-top: 40px;
+    float: left;
+    display: block;
+}
+
+.nombre-superior{
+    padding-top: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#mensaje, #resultado{
+    /*sacar*/
+    width: 500px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    opacity: 0.5;
+}
+
+.tarjeta{
+    width: 500px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fefefe;
+}
+
+.error{
+    color: red;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0 0.3rem;
+}
+
+button{
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+    color: black;
+    background: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em 1em;
+    max-width: 50%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+}

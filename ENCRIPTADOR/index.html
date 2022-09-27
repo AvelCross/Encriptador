@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo-superior">
+                <h1><img src="imagenes/Logo.png" alt="logoAlura"></h1>
+            </div>
+            <div class="nombre-superior">
+                <h1>Puedes Encriptar o Desencriptar tus mensajes</h1>
+                <h2>y ahora podras escucharlos</h2>
+            </div>
+        </header>
+        <main class="contenedor-principal">
+            <div class="tarjeta num1">
+                <input type="text" id="mensaje" placeholder="Ingresa tu mensaje">
+                <div class="contenedor-errores"></div>
+                <div class="contenedor-botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            <div class="tarjeta num2">
+                <input type="text" id="resultado" placeholder="Resultado">
+                <div class="contenedor-botones">
+                    <button id="copiar">Copiar</button>
+                    <button id="escuchar">&#128264 Escuchar</button>
+                </div>
+
+            </div>
+        </main>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
